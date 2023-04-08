@@ -10,6 +10,13 @@
 </head>
 
 <body class="bg-gray-100">
+<div class="flex justify-between items-center h-16 bg-gray-900 px-8">
+    <h1 class="text-white text-xl font-bold">AniHealth</h1>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="document.location.href='index.php'"
+    ">
+      Logout
+    </button>
+  </div>
         <?php
         include "connection.php";
 
