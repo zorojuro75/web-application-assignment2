@@ -15,7 +15,7 @@
   include "varification.php";
   ?>
     <div class="bgcover">
-        <div class="flex w-1/3 justify-center items-center bg-white">
+        <div class="flex lg:w-1/3 justify-center items-center bg-white">
             <div class="w-full px-8 md:px-32 lg:px-24">
             <form class="bg-white rounded-md shadow-2xl p-5 text-center" method="POST">
               <h1 class="text-gray-800 font-bold text-2xl mb-1">Welcome to AniMedi</h1>
