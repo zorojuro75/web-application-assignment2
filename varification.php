@@ -3,7 +3,7 @@
             if (isset($_POST['submit'])) {
                 $username = $_POST['username'];
                 $password = $_POST['password'];
-                include "connection.php";
+                $conn = mysqli_connect("localhost", "root", "", "assignment2");
                 if (!$conn) {
                     die("Connection failed: " . mysqli_connect_error());
                 }

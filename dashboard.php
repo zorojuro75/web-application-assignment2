@@ -9,8 +9,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gray-100">
-<div class="flex justify-between items-center h-16 bg-gray-900 px-8">
+<body class="absolute md:relative lg:static bg-gray-100 bg-center bg-cover">
+<div class="flex justify-between items-center w-full h-16 bg-gray-900 px-8">
     <h1 class="text-white text-xl font-bold">AniHealth</h1>
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="document.location.href='index.php'"
     ">
@@ -24,7 +24,7 @@
         if (!$result) {
             die('Error retrieving data: ' . mysqli_error($conn));
         }
-        echo '<div class="bg-white shadow rounded-lg p-6 mb-8">';
+        echo '<div class="w-full bg-white shadow rounded-lg p-6 mb-8">';
         echo '<h3 class="text-xl font-bold mb-4">Help Request</h3>';
         echo '<table class="w-full">';
         echo '<thead>
